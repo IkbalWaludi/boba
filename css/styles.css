@@ -1,0 +1,341 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 3vw;
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 30%;
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+      font-size: 4vw;
+  }
+}
+#news-promo{
+  padding: 7% 15%;
+}
+#news-promo h2{
+  color: black;
+  text-align:  ;
+}
+
+#news-promo li{
+  text-align: left;
+}
+#news-promo ol{
+  text-align: center ;
+}
+
+em{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+}
+
+@media only screen and (max-width: 990px) {
+  .menu-lainnya {
+  font-size: 2.5rem;
+  }
+}
+
+p{
+  color: grey;
+}
+
+#boba-img{
+  width: 100%;
+}
+
+.body-1{
+  background-color:#5c4cb4;
+  color: white;
+}
+
+#body-2{
+  background-color: #a4181c;
+  width: 100%;
+}
+
+#big-word-1{
+  font-size: 250px;
+  text-align: right;
+  padding: 7% 15%;
+}
+
+#logo{
+padding-left: 50px;
+}
+
+#title{
+  background-color: #330066;
+}
+
+#wn{
+  margin-right: 20px;
+}
+
+.bg-purple{
+    background-color: 	#bf00ff;
+}
+
+
+.img-menu2{
+  width: 250px;
+}
+
+.logo{
+  width: 40px;
+}
+
+.menu{
+  margin-left: 100px;
+}
+
+.white-space{
+  text-align: center;
+  background-color: white;
+  color: white;
+}
+
+.white-blank{
+  height: 150px;
+}
+
+/* Navigation Bar */
+
+.brand-logo{
+  margin: -33% ;
+  margin-bottom: -34%;
+  margin-left: 2%;
+  width: 200px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.ham{
+  text-align: right;
+}
+
+/* who we are */
+#who-we-are{
+  color: black;
+  padding: 7% 15%;
+}
+
+
+/* 
+@media only screen and (min-width: 992px) {
+  #who-we-are p{
+    font-size: 0.9vw;
+  }
+} */
+
+.icon{
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.wwa-box{
+  padding: 5%;
+}
+
+@media only screen and (min-width : 992px) {
+    h3 {
+      font-size: 2vw;
+    }
+}
+/* Menu */
+.img-menu-coklat{
+  filter: grayscale(31%) brightness(78%) hue-rotate(172deg) saturate(48%) contrast(305%) invert(7%);
+-webkit-filter: grayscale(31%) brightness(78%) hue-rotate(172deg) saturate(48%) contrast(305%) invert(7%);
+-moz-filter: grayscale(31%) brightness(78%) hue-rotate(172deg) saturate(48%) contrast(305%) invert(7%);
+}
+
+.img-menu-mangga{
+  filter: grayscale(31%) brightness(83%) hue-rotate(203deg) saturate(219%) contrast(305%) invert(7%);
+-webkit-filter: grayscale(31%) brightness(83%) hue-rotate(203deg) saturate(219%) contrast(305%) invert(7%);
+-moz-filter: grayscale(31%) brightness(83%) hue-rotate(203deg) saturate(219%) contrast(305%) invert(7%);
+}
+
+.img-menu-jambu{
+  filter: hue-rotate(134deg) saturate(213%);
+-webkit-filter: hue-rotate(134deg) saturate(213%);
+-moz-filter: hue-rotate(134deg) saturate(213%);
+}
+
+.img-menu-straw{
+  filter: brightness(41%) hue-rotate(147deg) saturate(454%);
+-webkit-filter: brightness(41%) hue-rotate(147deg) saturate(454%);
+-moz-filter: brightness(41%) hue-rotate(147deg) saturate(454%);
+}
+.img-menu-anggur{
+  filter: brightness(123%) hue-rotate(194deg) saturate(443%) invert(99%);
+-webkit-filter: brightness(123%) hue-rotate(194deg) saturate(443%) invert(99%);
+-moz-filter: brightness(123%) hue-rotate(194deg) saturate(443%) invert(99%);
+
+
+}
+.img-menu-tea{
+  filter: brightness(93%) hue-rotate(179deg) saturate(245%);
+  -webkit-filter: brightness(93%) hue-rotate(179deg) saturate(245%);
+  -moz-filter: brightness(93%) hue-rotate(179deg) saturate(245%);
+
+}
+.img-menu-melon{
+  filter: brightness(102%) hue-rotate(238deg) saturate(162%);
+-webkit-filter: brightness(102%) hue-rotate(238deg) saturate(162%);
+-moz-filter: brightness(102%) hue-rotate(238deg) saturate(162%);
+}
+#menu{
+  text-align: center;
+  background-color: #a4181c;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.img-menu{
+  height: 250px;
+
+}
+
+/* location */
+#location{
+  color: #5c4cb4;
+  padding: 7% 15%;
+  padding-top: 0;
+}
+
+.location-card{
+  padding: 7%;
+}
+
+.location-icon{
+  margin-top: 7%;
+}
+
+.zoom {
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* contact */
+.contact{
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.contact-box{
+width: 60%;
+padding: 7%;
+}
+
+.contact-box h2{
+
+}
+
+.contact-box hr{
+  margin-bottom: 5%;
+  border: solid;
+    height: 0.8px;
+    border-top: none;
+    /* Set the hr color */
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+    width: 6%;
+}
+
+
+.contact-box p{
+  color: white;
+  text-align: left;
+}
+
+input {
+    width: 400px;
+    padding: 0 20px;
+}
+
+.contact-form-input{
+  margin-left: 7%;
+  max-width: 780px;
+}
+
+::-webkit-input-placeholder {
+  color: peachpuff;
+  font-size: 13px;
+}
+
+.contact-text{
+  padding-left: 7%;
+}
+
+.contact-text p{
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .contact-text p{
+    text-align: left;
+  }
+
+}
+
+/* social */
+.socal-button a{
+  width: 200%;
+}
+
+.social-button{
+  text-align: center;
+}
+
+.social-icon{
+  padding: 0 5px;
+  margin-top: 0;
+}
+
+.social-text p{
+  margin: 0;
+}
+
+/* menu page */
+
+.menu-page-title{
+  color: white;
+  font-weight: 200;
+  margin-right: auto;
+  padding-left: -500px;
+}
+
+.menu-page-img{
+  width: 60%;
+}
+
+.menu-page-img2{
+  width: 70%;
+}
+
+.news-promo p,h4,i {
+  margin-bottom: 0 ;
+  color: black;
+}
